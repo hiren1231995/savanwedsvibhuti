@@ -8875,11 +8875,7 @@ textarea.form-control {
     width: 180px;
     height: 180px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+    margin-bottom: 20px;}
   .people h3 {
     font-size: 20px; }
 
