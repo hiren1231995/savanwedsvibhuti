@@ -729,18 +729,18 @@
   <script src="js/main.js"></script>
   <script>
 // /*        /* ------------------------------ preloader  
-        TM_preLoaderClickDisable: function() {
+		function TM_preLoaderClickDisable() {
             var $preloader = $('#preloader');
             $preloader.children('#disable-preloader').on('click', function(e) {
                 $preloader.fadeOut();
                 return false;
             });
-        },
+        };
 
-        TM_preLoaderOnLoad: function() {
+        function TM_preLoaderOnLoad() {
             var $preloader = $('#preloader');
             $preloader.delay(2000).fadeOut('slow');
-        },
+        };
         
 	$(window).on('load', function() {
 
@@ -750,6 +750,12 @@
 
 		});   
 		
+
+
+
+
+
+
 		$(document).ready(function(){
 
 
@@ -817,7 +823,7 @@
 	});
 	}
 	toggle_video_modal();
-	});
+});
  </script>
   </body>
 </html>
